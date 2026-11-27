@@ -2,7 +2,7 @@
 
 This repository contains a Lean 4 proof of Theorem 22 from [Quantum Subentropy: Subadditivity and Sharp Bounds on Discrimination Error](https://arxiv.org/html/2611.30220v1#S5.SS2.SSS1). For finite classical distributions, equality in strong subadditivity holds exactly when one of the two outer variables is a function of the middle variable almost surely. The pointwise inequality also holds for unnormalized nonnegative tables, with the same equality condition for every positive parameter.
 
-The [challenge](Challenge.lean) states the three claims using finite sums, products, and the scalar integral from Lemma 3. The [solution](Solution.lean) identifies this integral with the subentropy of a diagonal matrix and applies the published Lean proofs. [Companion proof index](https://pratikpatil.io/lean/subentropy/)
+The [challenge](Challenge.lean) states the three claims using finite sums, products, and the scalar integral from Lemma 3. The [solution](Solution.lean) identifies this integral with the subentropy of a diagonal matrix and applies the published Lean proofs. [Lean proofs for the full paper](https://pratikpatil.io/lean/subentropy/)
 
 The original code in this package is licensed under [Apache 2.0](LICENSE). The package includes 11 project modules and 27 modules adapted from The Omega Institute. Their contents match the companion's published source ZIP. [Source attribution and upstream license](ATTRIBUTION.md)
 
