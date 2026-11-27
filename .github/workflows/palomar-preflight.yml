@@ -9,9 +9,9 @@ jobs:
     uses: PalomarRegistry/PalomarSubmission/.github/workflows/submission.yml@046554302064b2c83c2b924bea6db87fc5900c68
     with:
       repository: ispnp/lean-subentropy
-      commit: e8e355d3c98a5019371e1443645f95ddddc7a977
+      commit: 24f3ed03eab1b480f7ad3d2db678483d32704d48
       pipeline_commit: 046554302064b2c83c2b924bea6db87fc5900c68
-      request_id: preflight001
+      request_id: sharpguess01
       mode: full
       execution_profile: palomar-standard-v1
-      options: '{"comparator_config_path":"comparator.json","authorization_relationship":"I am a responsible author or maintainer"}'
+      options: '{"comparator_config_path":"SharpGuessing/comparator.json","formalization_metadata_path":"SharpGuessing/formalization.yaml","authorization_relationship":"I am a responsible author or maintainer"}'
