@@ -1,0 +1,216 @@
+{
+  "changes": "module/import visibility, exposed public section, and explicit imports replacing the Mathlib umbrella",
+  "explicit_imports": [
+    "Mathlib.Algebra.Order.Rearrangement",
+    "Mathlib.Algebra.Star.CHSH",
+    "Mathlib.Analysis.CStarAlgebra.CStarMatrix",
+    "Mathlib.Analysis.CStarAlgebra.CompletelyPositiveMap",
+    "Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Order",
+    "Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Projection",
+    "Mathlib.Analysis.Convex.Birkhoff",
+    "Mathlib.Analysis.Convex.Jensen",
+    "Mathlib.Analysis.Convex.SpecificFunctions.Basic",
+    "Mathlib.Analysis.InnerProductSpace.Projection.Basic",
+    "Mathlib.Analysis.Matrix.Order",
+    "Mathlib.Analysis.Matrix.PosDef",
+    "Mathlib.Analysis.Matrix.Spectrum",
+    "Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.ExpLog.Basic",
+    "Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.PosPart.Basic",
+    "Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.Rpow.Basic",
+    "Mathlib.Analysis.SpecialFunctions.Gamma.Basic",
+    "Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral",
+    "Mathlib.Analysis.SpecialFunctions.ImproperIntegrals",
+    "Mathlib.Analysis.SpecialFunctions.Integrals.Basic",
+    "Mathlib.Analysis.SpecialFunctions.Log.Basic",
+    "Mathlib.Analysis.SpecialFunctions.Log.NegMulLog",
+    "Mathlib.Dynamics.BirkhoffSum.NormedSpace",
+    "Mathlib.InformationTheory.KullbackLeibler.KLFun",
+    "Mathlib.LinearAlgebra.Lagrange",
+    "Mathlib.LinearAlgebra.Matrix.Charpoly.Basic",
+    "Mathlib.LinearAlgebra.Matrix.SchurComplement",
+    "Mathlib.Logic.Equiv.Bool",
+    "Mathlib.MeasureTheory.Constructions.Pi",
+    "Mathlib.MeasureTheory.Function.JacobianOneDim",
+    "Mathlib.MeasureTheory.Integral.Bochner.Basic",
+    "Mathlib.MeasureTheory.Integral.Bochner.Set",
+    "Mathlib.MeasureTheory.Integral.DominatedConvergence",
+    "Mathlib.MeasureTheory.Integral.Pi",
+    "Mathlib.MeasureTheory.Integral.Prod",
+    "Mathlib.Probability.Distributions.Gaussian.Multivariate",
+    "Mathlib.Probability.Distributions.Gaussian.Real",
+    "Mathlib.Tactic"
+  ],
+  "helper_visibility_changes": {
+    "D5/S3/Quantum/Subentropy/ClassicalQuantumGram.lean": [
+      [
+        "private def weightedRoot",
+        "def weightedRoot"
+      ]
+    ]
+  },
+  "definition_and_proof_text_changed": false,
+  "files": [
+    {
+      "path": "D5/S3/Divergence/ClassicalDPI.lean",
+      "original_sha256": "f2ff0193b556a914b4936ba33381a3c23f8d3d547db1ea3afca331cbb4f561ff",
+      "adapted_sha256": "8ed62f9f91f30bbedf2ba4dc95b98543b0b2e82846a10f0852bda4138e3e3b33",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Divergence/GrandmotherTheorem.lean",
+      "original_sha256": "c464b7a68c4b838bef922461c77a876b080ca2263f37c2a94072a71eeb275f50",
+      "adapted_sha256": "abc1355b643958a326bd4e8fe38ecac04d33a2010f39f6589f603eac6a952cde",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Entropy/MaxEntropy.lean",
+      "original_sha256": "778c77724467043062ce9069910ef461c8a91afcc3a36b0bbaeeb2ef00f8e664",
+      "adapted_sha256": "8cad29e03999126e9791c8f27ee4af49942fc30efca4ea451ffe03e0899b9b53",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Observer/Conditioning.lean",
+      "original_sha256": "fb53406c21a069abafa4baddf71d262ce67d8fabb9b2dd717c0b913c4a97ed3e",
+      "adapted_sha256": "b98e5013e434d46d5111e5999993b20616ed88a40b8a4dff05881c2e56789d38",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Observer/Conditioning/UnreadStateOrthogonalProjection.lean",
+      "original_sha256": "347afe2d0801afd9831526387f8b41ad1fcb2eb80563180fdf89a6607639d5fe",
+      "adapted_sha256": "6554641e0b3e257094d85dafb3ffef64b6bf3aab77bcbee95ded567e743f51b9",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/ChannelFixedState.lean",
+      "original_sha256": "2f2d1fb7320600abe0dfbb4975db9ca41f4601f90dfe35cbb48b1ced983a46c5",
+      "adapted_sha256": "a8fb7ab5680a8ce9d509541e9c6e07eba72df90a3467f2ccb45244332a8722b5",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Divergence/QuantumRelativeEntropyDefectComposition.lean",
+      "original_sha256": "c8a4c2fafef79937bd949693337a48ceaa69c9db8d3f82ea60b5ca48ccc8b34b",
+      "adapted_sha256": "7e4f63d66c2c5d427443c229f32faaaf8463db6b31cc1093970b6368d5bcd803",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Divergence/VonNeumannEntropyPinching.lean",
+      "original_sha256": "f48755a326edaa803d10f248fc078f446cc62714b56c843463428307590fa550",
+      "adapted_sha256": "a458b58d5a4922347cbd7d914d06a49b3976b1f6dc40020fa981e598990f7c8a",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/FiniteDimensional.lean",
+      "original_sha256": "664b9ea50bca484513a28f5cd812e270f0c8da5394cdd768298b61b65e111844",
+      "adapted_sha256": "0360efd84b09ca701f79804d10b4ee6f4729d1146ec901887d6bf0e3da13bb2f",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Foundation/FiniteStateChannel.lean",
+      "original_sha256": "0b76c6ae85fef9d976f86c7f4e59da2e9a79aaf8e6e2a1dcdc57ce45b0167014",
+      "adapted_sha256": "e970676f030a47a0442fc9d377ed3d792503a0c314335a90332b5faf00e00bde",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Information/OrthogonalRecordEntropy.lean",
+      "original_sha256": "82bd75a80971e9511d940a722d62bb397e248e1a89910ecf60239506f83912a2",
+      "adapted_sha256": "117ffebe16f93b6280d1da3295185971edb54550efc98ba51ec8eb85a548b48a",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Information/PartialTraceMutualInformation.lean",
+      "original_sha256": "83a1b6e403a8e7b489cd7356809f34fc42c647c18a1e45946878e927222886c7",
+      "adapted_sha256": "1edca936b905baa3c29b81e011be18bbd1e26e4dc124c281d7a8245224cfb4c4",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Measurement/BasisMeasurementProjection.lean",
+      "original_sha256": "fcde01f77d3e94325501d670806ab6fd0af15a637e16ac5b690d80dfc7bd5fda",
+      "adapted_sha256": "dc128e74fa72e9113d5f0af9486222d1ac6eb08656cc0a7aaf6134f68695155a",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Subentropy/Basic.lean",
+      "original_sha256": "cffc1c5cdac179192688c893d7b77002ff98c99aeb3cc4583110c9f4dd762926",
+      "adapted_sha256": "6a335826112d65ba68cb88d45eb50879acaf37a566dccc3d4b13abd515b9fa4b",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Subentropy/ClassicalQuantumGram.lean",
+      "original_sha256": "48ed125174280826f0333af690cf794f62221b9a84a1ad5268cb41cdf90919e7",
+      "adapted_sha256": "8417994bab47b6a21eabbebd82f1456eebc75c751563215c5a5feb214f585198",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Subentropy/DensityKernel.lean",
+      "original_sha256": "a81af388c2dc39a1560685c0c4cb59308ab3f54e832dd29922ff2ffcaa428ab0",
+      "adapted_sha256": "7e58c3b54f3042ab09a857f96494628ecbd9ceff657756146af5b9a538d05f91",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Subentropy/EntropyJensenGap.lean",
+      "original_sha256": "2655356659445bfd0ae9721329c80185368c1c178056b5007afa668a513ebe9b",
+      "adapted_sha256": "f7c079cca796b03f25ca80b23bf389d89f524f39263dc947a1605113088a737f",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Subentropy/GaussianDiagonal.lean",
+      "original_sha256": "c3724783bb5090e8dbefab2172862e6f64e6ceb4996fb0243bf1f08a519a2445",
+      "adapted_sha256": "be1a776c2de2a4c17420c4394055ed10b52296b51a978c5ad317864eca0483fd",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Subentropy/GaussianEntropy.lean",
+      "original_sha256": "f0aec5213d2fd2fe6958dc2dc38059ef77ccd33d513fcb0a944168aa380c7d46",
+      "adapted_sha256": "094ce3146bb957ae723f51d284bd65df2c9aafe09d6c7340874a495ba4cd6d67",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Subentropy/GaussianMatrix.lean",
+      "original_sha256": "68da5034b8f90e62a09f09e3a47e30bb5e9ae1b3bcaf1e6d304acdbf5c5e63b0",
+      "adapted_sha256": "23bc7a27424216512eac074b4de90325452299262ba044ecaaa5f24c97aced3c",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Subentropy/GaussianQuadratic.lean",
+      "original_sha256": "eebb9a3bdc228b9dd9a33cdb239943c8e649ab72d395d08c4ddfcaaf2288bc19",
+      "adapted_sha256": "f715ef69beaab3ac290eed053c4bbdcc8857da498e0b61602b45bbf555d5b378",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Subentropy/GaussianRepresentation.lean",
+      "original_sha256": "61d645607171a02215d98a2d2c70c529280d9889f42cf05efb503230c5b957f5",
+      "adapted_sha256": "58f216ae051144709d78ddb0675cc8a25c506b87719331f72a89ab36718f52c4",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Subentropy/KernelBounds.lean",
+      "original_sha256": "d15074e81cc36611eb30a478801aa326cd8cfb2262d9ff363d3b50bb75d2fe2e",
+      "adapted_sha256": "2a483466fe4e9e928b6ae8e3c19bc7199f4dda4b787539f1ae48e69114bdd7b0",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Subentropy/LaplaceEntropy.lean",
+      "original_sha256": "7171870755bb7712694aedde43bb88bfd279d1c5ad27effbd3f417432f033d04",
+      "adapted_sha256": "3c02f24de03ec6c9bfda154636011715dd9f59c24e100341433eac3912882f81",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Subentropy/PinchingGap.lean",
+      "original_sha256": "75d380a57119d58aff252b05f69636d48e5d8d11215604b12c92169456ec3458",
+      "adapted_sha256": "8aece66759fcd5259a70cd0da10590b62f398f0fcf922a652c911a9d50df4198",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Subentropy/UniformIntegrals.lean",
+      "original_sha256": "00939c169aecde07b8ca4079399e704c9116c100fb7710068a10c9f370e6109f",
+      "adapted_sha256": "2034c4605856e073356274202f2c019897e5a4163d66bcc847b4a2739611ee2f",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Tomography/RankOneContextCommutator.lean",
+      "original_sha256": "186aecdfa8726f245d588f9f1e44b9854e898874abb6fe6f36c01b33bb8def8f",
+      "adapted_sha256": "304a9116c7d1338ab50bfdfb9e65f089f6364775ecf1da8b64ab49d56878b2d3",
+      "roundtrip_preserves_original_text": true
+    }
+  ]
+}

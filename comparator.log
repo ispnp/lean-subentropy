@@ -1,0 +1,666 @@
+Resolving dependencies
+Building Challenge
+⚠ [2662/2663] Built Challenge (8.1s)
+warning: Challenge.lean:44:8: declaration uses `sorry`
+warning: Challenge.lean:53:8: declaration uses `sorry`
+warning: Challenge.lean:59:8: declaration uses `sorry`
+Build completed successfully (2663 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, SubentropyClassicalSSA.classical_strong_subadditivity, SubentropyClassicalSSA.classical_ssa_kernel, SubentropyClassicalSSA.classical_ssa_kernel_eq_iff, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Challenge
+Building Solution
+⚠ [3894/3933] Built D5.S3.Quantum.Foundation.FiniteStateChannel (9.4s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Foundation/FiniteStateChannel.lean:15:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+info: vendor/upstream/module_snapshot/D5/S3/Quantum/Foundation/FiniteStateChannel.lean:151:0: 'D5.S3.Quantum.Foundation.FiniteStateChannel.QuantumChannel.comp_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: vendor/upstream/module_snapshot/D5/S3/Quantum/Foundation/FiniteStateChannel.lean:152:0: 'D5.S3.Quantum.Foundation.FiniteStateChannel.QuantumChannel.comp_mapState' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: vendor/upstream/module_snapshot/D5/S3/Quantum/Foundation/FiniteStateChannel.lean:153:0: 'D5.S3.Quantum.Foundation.FiniteStateChannel.channel_comp_mapState' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+✔ [3895/3933] Built SubentropyCertificates.FourCell (11s)
+⚠ [3896/3933] Built D5.S3.Quantum.Subentropy.GaussianRepresentation (11s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/GaussianRepresentation.lean:17:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+⚠ [3897/3933] Built D5.S3.Divergence.ClassicalDPI (12s)
+warning: vendor/upstream/module_snapshot/D5/S3/Divergence/ClassicalDPI.lean:65:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+⚠ [3898/3933] Built D5.S3.Quantum.ChannelFixedState (13s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/ChannelFixedState.lean:71:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/ChannelFixedState.lean:88:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3899/3933] Built D5.S3.Quantum.FiniteDimensional (13s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/FiniteDimensional.lean:51:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+⚠ [3900/3933] Built D5.S3.Quantum.Subentropy.UniformIntegrals (13s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/UniformIntegrals.lean:15:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+⚠ [3901/3933] Built D5.S3.Quantum.Subentropy.EntropyJensenGap (13s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/EntropyJensenGap.lean:17:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/EntropyJensenGap.lean:119:21: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/EntropyJensenGap.lean:119:25: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/EntropyJensenGap.lean:125:4: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/EntropyJensenGap.lean:125:8: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/EntropyJensenGap.lean:140:4: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/EntropyJensenGap.lean:140:8: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/EntropyJensenGap.lean:119:25: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/EntropyJensenGap.lean:125:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/EntropyJensenGap.lean:140:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [3902/3933] Built D5.S3.Quantum.Tomography.RankOneContextCommutator (13s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Tomography/RankOneContextCommutator.lean:51:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+info: vendor/upstream/module_snapshot/D5/S3/Quantum/Tomography/RankOneContextCommutator.lean:213:0: 'D5.S3.Quantum.Tomography.RankOneContextCommutator.aggregated_rank_one_context_commutator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+✔ [3903/3933] Built SubentropyCertificates.BinarySplitting (3.8s)
+⚠ [3904/3933] Built D5.S3.Quantum.Subentropy.GaussianQuadratic (14s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/GaussianQuadratic.lean:17:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/GaussianQuadratic.lean:42:8: automatically included section variable(s) unused in theorem `_private.D5.S3.Quantum.Subentropy.GaussianQuadratic.0.D5.S3.Quantum.Subentropy.GaussianQuadratic.complexCoordinates_repr`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/GaussianQuadratic.lean:42:16: `complexCoordinates_repr` does not use the following hypothesis in its type:
+  • [DecidableEq ι] (#3)
+
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+
+Note: This linter can be disabled with `set_option linter.unusedDecidableInType false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/GaussianQuadratic.lean:50:8: `complex_coordinate_transport` does not use the following hypothesis in its type:
+  • [DecidableEq ι] (#3)
+
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+
+Note: This linter can be disabled with `set_option linter.unusedDecidableInType false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/GaussianQuadratic.lean:88:24: This simp argument is unused:
+  PiLp.toLp_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/GaussianQuadratic.lean:105:53: This simp argument is unused:
+  PiLp.toLp_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [PiLp.inner_apply, RCLike.inner_apply, Complex.re_sum]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3905/3933] Built SubentropyCertificates.FourCellDeficit (5.3s)
+✔ [3906/3933] Built SubentropyCertificates.TableMerging (2.1s)
+⚠ [3907/3933] Built D5.S3.Divergence.GrandmotherTheorem (4.6s)
+warning: vendor/upstream/module_snapshot/D5/S3/Divergence/GrandmotherTheorem.lean:30:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+⚠ [3908/3933] Built D5.S3.Quantum.Divergence.QuantumRelativeEntropyDefectComposition (4.6s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Divergence/QuantumRelativeEntropyDefectComposition.lean:15:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+info: vendor/upstream/module_snapshot/D5/S3/Quantum/Divergence/QuantumRelativeEntropyDefectComposition.lean:136:0: 'D5.S3.Quantum.Divergence.QuantumRelativeEntropyDefectComposition.relative_entropy_defect_composition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+✔ [3909/3933] Built SubentropyCertificates.SliceProducts (1.0s)
+⚠ [3910/3933] Built D5.S3.Observer.Conditioning (5.2s)
+warning: vendor/upstream/module_snapshot/D5/S3/Observer/Conditioning.lean:23:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+⚠ [3911/3933] Built D5.S3.Entropy.MaxEntropy (2.8s)
+warning: vendor/upstream/module_snapshot/D5/S3/Entropy/MaxEntropy.lean:31:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+✔ [3912/3933] Built SubentropyCertificates.ClassicalSSAKernel (1.5s)
+⚠ [3913/3933] Built D5.S3.Quantum.Subentropy.LaplaceEntropy (6.4s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/LaplaceEntropy.lean:19:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/LaplaceEntropy.lean:92:17: This simp argument is unused:
+  integral_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [← ha, Real.log_zero, zero_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/LaplaceEntropy.lean:239:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3914/3933] Built D5.S3.Observer.Conditioning.UnreadStateOrthogonalProjection (2.5s)
+warning: vendor/upstream/module_snapshot/D5/S3/Observer/Conditioning/UnreadStateOrthogonalProjection.lean:24:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+info: vendor/upstream/module_snapshot/D5/S3/Observer/Conditioning/UnreadStateOrthogonalProjection.lean:176:0: 'D5.S3.Observer.Conditioning.UnreadStateOrthogonalProjection.unread_state_orthogonal_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [3915/3933] Built D5.S3.Quantum.Measurement.BasisMeasurementProjection (3.2s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Measurement/BasisMeasurementProjection.lean:15:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Measurement/BasisMeasurementProjection.lean:288:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+info: vendor/upstream/module_snapshot/D5/S3/Quantum/Measurement/BasisMeasurementProjection.lean:352:0: 'D5.S3.Quantum.Measurement.BasisMeasurementProjection.basis_measurement_is_orthogonal_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: vendor/upstream/module_snapshot/D5/S3/Quantum/Measurement/BasisMeasurementProjection.lean:353:0: 'D5.S3.Quantum.Measurement.BasisMeasurementProjection.trace_zero_basis_measurement_is_orthogonal_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [3916/3933] Built D5.S3.Quantum.Divergence.VonNeumannEntropyPinching (2.1s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Divergence/VonNeumannEntropyPinching.lean:14:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+info: vendor/upstream/module_snapshot/D5/S3/Quantum/Divergence/VonNeumannEntropyPinching.lean:171:0: 'D5.S3.Quantum.Divergence.VonNeumannEntropyPinching.von_neumann_entropy_pinching' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Divergence/VonNeumannEntropyPinching.lean:8:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [3917/3933] Built D5.S3.Quantum.Information.PartialTraceMutualInformation (4.9s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Information/PartialTraceMutualInformation.lean:16:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+info: vendor/upstream/module_snapshot/D5/S3/Quantum/Information/PartialTraceMutualInformation.lean:335:0: 'D5.S3.Quantum.Information.PartialTraceMutualInformation.quantumMutualInformation_productState' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: vendor/upstream/module_snapshot/D5/S3/Quantum/Information/PartialTraceMutualInformation.lean:337:0: 'D5.S3.Quantum.Information.PartialTraceMutualInformation.partialTraceLeft_posSemidef' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: vendor/upstream/module_snapshot/D5/S3/Quantum/Information/PartialTraceMutualInformation.lean:338:0: 'D5.S3.Quantum.Information.PartialTraceMutualInformation.partialTraceRight_posSemidef' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: vendor/upstream/module_snapshot/D5/S3/Quantum/Information/PartialTraceMutualInformation.lean:339:0: 'D5.S3.Quantum.Information.PartialTraceMutualInformation.marginalLeft' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: vendor/upstream/module_snapshot/D5/S3/Quantum/Information/PartialTraceMutualInformation.lean:340:0: 'D5.S3.Quantum.Information.PartialTraceMutualInformation.marginalRight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [3918/3933] Built D5.S3.Quantum.Subentropy.Basic (2.2s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/Basic.lean:18:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/Basic.lean:90:46: This simp argument is unused:
+  smul_eq_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [subentropyKernel, Matrix.det_unique, Matrix.add_apply, Matrix.one_apply_eq, Matrix.smul_apply,
+    mul_one, Complex.add_re, Complex.one_re, Complex.real_smul, Complex.inv_re, Complex.ofReal_re]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/Basic.lean:91:57: This simp argument is unused:
+  Complex.inv_re
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [subentropyKernel, Matrix.det_unique, Matrix.add_apply, Matrix.one_apply_eq, Matrix.smul_apply,
+    smul_eq_mul, mul_one, Complex.add_re, Complex.one_re, Complex.real_smul, Complex.ofReal_re]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/Basic.lean:94:4: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/Basic.lean:94:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/Basic.lean:125:12: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.diagonal_apply, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/Basic.lean:125:30: This simp argument is unused:
+  Matrix.diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.one_apply, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/Basic.lean:127:55: This simp argument is unused:
+  Finset.prod_inv_distrib
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [← Complex.ofReal_prod, Complex.ofReal_re]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/Basic.lean:133:24: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [div_eq_mul_inv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/Basic.lean:132:55: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/Basic.lean:132:59: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/Basic.lean:132:59: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [3919/3933] Built D5.S3.Quantum.Subentropy.KernelBounds (2.6s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/KernelBounds.lean:17:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/KernelBounds.lean:33:71: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/KernelBounds.lean:34:30: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/KernelBounds.lean:34:34: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/KernelBounds.lean:34:34: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/KernelBounds.lean:33:71: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/KernelBounds.lean:112:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/KernelBounds.lean:76:6: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/KernelBounds.lean:76:10: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/KernelBounds.lean:114:6: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/KernelBounds.lean:127:6: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/KernelBounds.lean:127:10: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/KernelBounds.lean:76:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/KernelBounds.lean:127:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/KernelBounds.lean:114:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3920/3933] Built D5.S3.Quantum.Information.OrthogonalRecordEntropy (5.1s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Information/OrthogonalRecordEntropy.lean:17:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Information/OrthogonalRecordEntropy.lean:132:16: `cfc_negMulLog_sum` does not use the following hypothesis in its type:
+  • [DecidableEq ι] (#5)
+
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+
+Note: This linter can be disabled with `set_option linter.unusedDecidableInType false`
+info: vendor/upstream/module_snapshot/D5/S3/Quantum/Information/OrthogonalRecordEntropy.lean:171:0: 'D5.S3.Quantum.Information.OrthogonalRecordEntropy.orthogonal_mixture_entropy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: vendor/upstream/module_snapshot/D5/S3/Quantum/Information/OrthogonalRecordEntropy.lean:300:0: 'D5.S3.Quantum.Information.OrthogonalRecordEntropy.orthogonal_record_trace_gives_sbs_consensus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [3921/3933] Built D5.S3.Quantum.Subentropy.DensityKernel (2.2s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/DensityKernel.lean:16:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/DensityKernel.lean:134:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/DensityKernel.lean:143:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [3922/3933] Built D5.S3.Quantum.Subentropy.GaussianEntropy (3.2s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/GaussianEntropy.lean:17:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/GaussianEntropy.lean:75:6: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/GaussianEntropy.lean:75:10: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/GaussianEntropy.lean:79:6: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/GaussianEntropy.lean:75:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/GaussianEntropy.lean:79:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/GaussianEntropy.lean:112:16: `coordinate_gaussian_laplace` does not use the following hypothesis in its type:
+  • [DecidableEq ι] (#3)
+
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+
+Note: This linter can be disabled with `set_option linter.unusedDecidableInType false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/GaussianEntropy.lean:198:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [3923/3933] Built D5.S3.Quantum.Subentropy.ClassicalQuantumGram (3.3s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/ClassicalQuantumGram.lean:17:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/ClassicalQuantumGram.lean:51:8: automatically included section variable(s) unused in theorem `_private.D5.S3.Quantum.Subentropy.ClassicalQuantumGram.0.D5.S3.Quantum.Subentropy.ClassicalQuantumGram.root_adjoint`:
+  [Fintype X]
+  [DecidableEq X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] [DecidableEq X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/ClassicalQuantumGram.lean:51:16: `root_adjoint` does not use the following hypothesis in its type:
+  • [DecidableEq X] (#4)
+
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+
+Note: This linter can be disabled with `set_option linter.unusedDecidableInType false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/ClassicalQuantumGram.lean:51:16: `root_adjoint` does not use the following hypothesis in its type:
+  • [Fintype X] (#3)
+
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+
+Note: This linter can be disabled with `set_option linter.unusedFintypeInType false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/ClassicalQuantumGram.lean:56:8: automatically included section variable(s) unused in theorem `_private.D5.S3.Quantum.Subentropy.ClassicalQuantumGram.0.D5.S3.Quantum.Subentropy.ClassicalQuantumGram.root_square`:
+  [Fintype X]
+  [DecidableEq X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] [DecidableEq X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/ClassicalQuantumGram.lean:56:16: `root_square` does not use the following hypothesis in its type:
+  • [DecidableEq X] (#4)
+
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+
+Note: This linter can be disabled with `set_option linter.unusedDecidableInType false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/ClassicalQuantumGram.lean:56:16: `root_square` does not use the following hypothesis in its type:
+  • [Fintype X] (#3)
+
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+
+Note: This linter can be disabled with `set_option linter.unusedFintypeInType false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/ClassicalQuantumGram.lean:63:8: `row_mul_adjoint` does not use the following hypothesis in its type:
+  • [DecidableEq X] (#4)
+
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+
+Note: This linter can be disabled with `set_option linter.unusedDecidableInType false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/ClassicalQuantumGram.lean:87:50: This simp argument is unused:
+  Matrix.kronecker_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.sum_apply, Matrix.smul_apply, Matrix.diagonal, Complex.real_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/ClassicalQuantumGram.lean:162:8: This simp argument is unused:
+  Matrix.diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [W, Matrix.mul_apply, Matrix.conjTranspose_apply, Fintype.sum_prod_type, hxy, eq_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3924/3933] Built D5.S3.Quantum.Subentropy.GaussianDiagonal (2.1s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/GaussianDiagonal.lean:16:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/GaussianDiagonal.lean:9:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [3925/3933] Built D5.S3.Quantum.Subentropy.GaussianMatrix (1.8s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/GaussianMatrix.lean:17:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/GaussianMatrix.lean:38:16: `measurable_coordinates` does not use the following hypothesis in its type:
+  • [DecidableEq ι] (#3)
+
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+
+Note: This linter can be disabled with `set_option linter.unusedDecidableInType false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/GaussianMatrix.lean:38:16: `measurable_coordinates` does not use the following hypothesis in its type:
+  • [Fintype ι] (#2)
+
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+
+Note: This linter can be disabled with `set_option linter.unusedFintypeInType false`
+⚠ [3926/3933] Built D5.S3.Quantum.Subentropy.PinchingGap (3.9s)
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/PinchingGap.lean:17:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `@[expose] public section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/PinchingGap.lean:47:8: automatically included section variable(s) unused in theorem `_private.D5.S3.Quantum.Subentropy.PinchingGap.0.D5.S3.Quantum.Subentropy.PinchingGap.sign_adjoint`:
+  [Fintype X]
+  [Fintype B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] [Fintype B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/PinchingGap.lean:47:16: `sign_adjoint` does not use the following hypotheses in its type:
+  • [Fintype X] (#3)
+  • [Fintype B] (#5)
+
+Consider replacing these hypotheses with the corresponding instances of `Finite` and using `Fintype.ofFinite` in the proof, or removing them entirely.
+
+Note: This linter can be disabled with `set_option linter.unusedFintypeInType false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/PinchingGap.lean:85:15: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/PinchingGap.lean:117:27: This simp argument is unused:
+  hn
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [blockPinch, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/PinchingGap.lean:146:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/PinchingGap.lean:212:16: `pinch_positive` does not use the following hypothesis in its type:
+  • [DecidableEq B] (#6)
+
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+
+Note: This linter can be disabled with `set_option linter.unusedDecidableInType false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/PinchingGap.lean:212:16: `pinch_positive` does not use the following hypotheses in its type:
+  • [Fintype X] (#3)
+  • [Fintype B] (#5)
+
+Consider replacing these hypotheses with the corresponding instances of `Finite` and using `Fintype.ofFinite` in the proof, or removing them entirely.
+
+Note: This linter can be disabled with `set_option linter.unusedFintypeInType false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/PinchingGap.lean:218:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/PinchingGap.lean:224:8: automatically included section variable(s) unused in theorem `_private.D5.S3.Quantum.Subentropy.PinchingGap.0.D5.S3.Quantum.Subentropy.PinchingGap.pinch_trace`:
+  [DecidableEq B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/PinchingGap.lean:224:16: `pinch_trace` does not use the following hypothesis in its type:
+  • [DecidableEq B] (#6)
+
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+
+Note: This linter can be disabled with `set_option linter.unusedDecidableInType false`
+warning: vendor/upstream/module_snapshot/D5/S3/Quantum/Subentropy/PinchingGap.lean:267:10: This simp argument is unused:
+  hn
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3927/3933] Built SubentropyCertificates.PinchingUpper (1.9s)
+✔ [3928/3933] Built SubentropyCertificates.ClassicalCurve (1.6s)
+✔ [3929/3933] Built SubentropyCertificates.ClassicalStrict (1.8s)
+✔ [3930/3933] Built SubentropyCertificates.BinaryTableDeficit (1.9s)
+✔ [3931/3933] Built SubentropyCertificates.ClassicalStrongSubadditivity (1.7s)
+✔ [3932/3933] Built Solution (1.2s)
+Build completed successfully (3933 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, SubentropyClassicalSSA.classical_strong_subadditivity, SubentropyClassicalSSA.classical_ssa_kernel, SubentropyClassicalSSA.classical_ssa_kernel_eq_iff, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Solution
+Running con-ron kernel on solution
+con-ron: 2 declarations hoisted ahead of the pinned Nat operations they ground: Nat.mul._f, Nat.mul
+con-ron: accepted 46103 declarations (--verified)
+con-ron kernel accepts the solution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

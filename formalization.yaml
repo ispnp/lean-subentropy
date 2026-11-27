@@ -1,0 +1,50 @@
+version: "v0.4"
+
+project:
+  name: Classical strong subadditivity of subentropy
+  description: >-
+    For finite classical random variables A, B and C, subentropy satisfies
+    Q(AB) + Q(BC) ≥ Q(B) + Q(ABC). Equality holds exactly when A is a function
+    of B almost surely or C is a function of B almost surely. For every t ≥ 0,
+    the pointwise inequality also holds for unnormalized nonnegative tables.
+  authors: ["Pratik Patil"]
+  responsible_maintainers: ["Pratik Patil"]
+  license: "Apache-2.0"
+
+classification:
+  arxiv: ["quant-ph", "cs.IT"]
+  msc2020: ["81P17", "81P18", "94A17"]
+
+sources:
+  - title: "Quantum Subentropy: Subadditivity and Sharp Bounds on Discrimination Error"
+    authors: ["Pratik Patil"]
+    type: paper
+    id: "https://arxiv.org/abs/2611.30220v1"
+    location: "Section 5.2.1, Theorem 22, equation (38)"
+    relationship: formalizes
+    note: "Journal version, Theorem 5, equation (38). https://doi.org/10.3390/e28111283"
+
+related_formalizations:
+  - id: "https://pratikpatil.io/lean/subentropy/"
+    relationship: builds-on
+    note: "The proofs use 11 modules from release 1 of Patil's Lean companion."
+  - id: "https://github.com/the-omega-institute/trureturing/tree/d3e1e931e66ad4a3f54c95ef96cf723edcd7e792"
+    relationship: builds-on
+    note: "The companion adapts 27 supporting modules and a pinching lemma from The Omega Institute."
+
+status:
+  scope: >-
+    The subentropy inequality assumes total mass one. The pointwise inequality
+    allows arbitrary nonnegative masses and t ≥ 0. For t > 0 and nonempty outer
+    alphabets, it has the same equality condition, including for the zero table.
+  sorry_count: 0
+  axioms: ["propext", "Classical.choice", "Quot.sound"]
+
+automation:
+  methods:
+    - method: agent
+      tool_setup: "AI-assisted Lean proof development."
+
+review:
+  status: "AI comparison of the Lean statements with Theorem 22."
+  reviewers: ["Codex"]

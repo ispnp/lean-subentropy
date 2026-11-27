@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "SubentropyClassicalSSA.classical_strong_subadditivity",
+    "SubentropyClassicalSSA.classical_ssa_kernel",
+    "SubentropyClassicalSSA.classical_ssa_kernel_eq_iff"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}
