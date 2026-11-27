@@ -111,6 +111,12 @@
       "roundtrip_preserves_original_text": true
     },
     {
+      "path": "D5/S3/Quantum/Information/InputInformationBalance.lean",
+      "original_sha256": "1cbc5472b2d6ef6b9372fd066cd4ac330dd741b8aaca791e721af34e5990f9ad",
+      "adapted_sha256": "658845991cb73f1590025e5665e2b4ab735c315e9c8db12e3fe819daa3aa63f2",
+      "roundtrip_preserves_original_text": true
+    },
+    {
       "path": "D5/S3/Quantum/Information/OrthogonalRecordEntropy.lean",
       "original_sha256": "82bd75a80971e9511d940a722d62bb397e248e1a89910ecf60239506f83912a2",
       "adapted_sha256": "117ffebe16f93b6280d1da3295185971edb54550efc98ba51ec8eb85a548b48a",
@@ -144,6 +150,12 @@
       "path": "D5/S3/Quantum/Subentropy/DensityKernel.lean",
       "original_sha256": "a81af388c2dc39a1560685c0c4cb59308ab3f54e832dd29922ff2ffcaa428ab0",
       "adapted_sha256": "7e58c3b54f3042ab09a857f96494628ecbd9ceff657756146af5b9a538d05f91",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Subentropy/EigenbasisBlocks.lean",
+      "original_sha256": "a1d0f241aa8d63b9a8fbc4656b6a292013a228a833ba71bbfe38dd47c9d5eff1",
+      "adapted_sha256": "ebab3d766a375a8a588ab71869d4b2997fa5ae17a97889ef67c369c69eae2263",
       "roundtrip_preserves_original_text": true
     },
     {
@@ -204,6 +216,12 @@
       "path": "D5/S3/Quantum/Subentropy/PinchingGap.lean",
       "original_sha256": "75d380a57119d58aff252b05f69636d48e5d8d11215604b12c92169456ec3458",
       "adapted_sha256": "8aece66759fcd5259a70cd0da10590b62f398f0fcf922a652c911a9d50df4198",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Quantum/Subentropy/SpectralFormula.lean",
+      "original_sha256": "2c692c3588027ff74621ed56a44a59049872435dec7ccb2fe9a56443bfebab9c",
+      "adapted_sha256": "739c6c0d9ac0b186ad2958f3b09ce19e3a6a10360c5afcdb8cde7dd0683e54dc",
       "roundtrip_preserves_original_text": true
     },
     {

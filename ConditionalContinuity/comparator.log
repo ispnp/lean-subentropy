@@ -1,0 +1,33 @@
+Lean (version 4.35.0, x86_64-unknown-linux-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)
+
+$ python3 check.py --config ConditionalContinuity/comparator.json
+Comparator transcript with dependency build progress omitted.
+
+Resolving dependencies
+Building ConditionalContinuity.Challenge
+Build completed successfully (2981 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, SubentropyConditionalContinuity.weighted_path_bound, SubentropyConditionalContinuity.strict_global_bound, SubentropyConditionalContinuity.optimal_global_coefficient, SubentropyConditionalContinuity.single_label, SubentropyConditionalContinuity.fixed_marginal_bound, SubentropyConditionalContinuity.optimal_fixed_marginal_coefficient, SubentropyConditionalContinuity.kappa_maximally_mixed, SubentropyConditionalContinuity.kappa_pure, SubentropyConditionalContinuity.kappa_mixed, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ConditionalContinuity.Challenge
+Building ConditionalContinuity.Solution
+Build completed successfully (4057 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, SubentropyConditionalContinuity.weighted_path_bound, SubentropyConditionalContinuity.strict_global_bound, SubentropyConditionalContinuity.optimal_global_coefficient, SubentropyConditionalContinuity.single_label, SubentropyConditionalContinuity.fixed_marginal_bound, SubentropyConditionalContinuity.optimal_fixed_marginal_coefficient, SubentropyConditionalContinuity.kappa_maximally_mixed, SubentropyConditionalContinuity.kappa_pure, SubentropyConditionalContinuity.kappa_mixed, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ConditionalContinuity.Solution
+Running con-ron kernel on solution
+con-ron: accepted 64184 declarations (--verified)
+con-ron kernel accepts the solution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!
+
+Lean #print axioms for the nine solution declarations
+'SubentropyConditionalContinuity.weighted_path_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubentropyConditionalContinuity.strict_global_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubentropyConditionalContinuity.optimal_global_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubentropyConditionalContinuity.single_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubentropyConditionalContinuity.fixed_marginal_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubentropyConditionalContinuity.optimal_fixed_marginal_coefficient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SubentropyConditionalContinuity.kappa_maximally_mixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubentropyConditionalContinuity.kappa_pure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubentropyConditionalContinuity.kappa_mixed' depends on axioms: [propext, Classical.choice, Quot.sound]

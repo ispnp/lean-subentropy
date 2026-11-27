@@ -1,0 +1,53 @@
+version: "v0.4"
+
+project:
+  name: Sharp trace-distance continuity bounds for conditional subentropy
+  description: >-
+    For two finite classical–quantum states, the absolute change in conditional subentropy
+    is bounded by their joint trace distance times the average of κ along the
+    line segment joining their quantum marginals. For distinct states the change
+    is strictly smaller than their joint trace distance. Nevertheless, one is the
+    optimal global Lipschitz constant for every fixed number of labels n ≥ 2 and
+    every quantum dimension m ≥ 1. For n ≥ 2 and any prescribed quantum marginal τ,
+    the optimal constant is κ(τ), the operator norm of the matrix K(τ) in equation (27).
+  authors: ["Pratik Patil"]
+  responsible_maintainers: ["Pratik Patil"]
+  license: "Apache-2.0"
+
+classification:
+  arxiv: ["quant-ph", "cs.IT"]
+  msc2020: ["81P17", "94A17"]
+
+sources:
+  - title: "Quantum Subentropy: Subadditivity and Sharp Bounds on Discrimination Error"
+    authors: ["Pratik Patil"]
+    type: paper
+    id: "https://arxiv.org/abs/2611.30220v1"
+    location: "Section 4.2, Theorem 14 and Corollary 15, equations (27), (28), and (30)"
+    relationship: formalizes
+
+related_formalizations:
+  - id: "https://pratikpatil.io/lean/subentropy/"
+    relationship: builds-on
+    note: "The solution uses the proofs of both results from the paper’s Lean companion."
+  - id: "https://github.com/the-omega-institute/trureturing/tree/d3e1e931e66ad4a3f54c95ef96cf723edcd7e792"
+    relationship: builds-on
+    note: "The companion uses adapted supporting modules and a pinching lemma from The Omega Institute."
+
+status:
+  scope: >-
+    The bounds allow zero blocks and singular quantum marginals. The optimal
+    fixed-marginal constant for n ≥ 2 equals 1/m for the maximally mixed marginal,
+    equals one for a pure marginal, and is strictly below one for every mixed
+    marginal. With a single label, conditional subentropy vanishes for every state.
+  sorry_count: 0
+  axioms: ["propext", "Classical.choice", "Quot.sound"]
+
+automation:
+  methods:
+    - method: agent
+      tool_setup: "AI assistance was used to develop the Lean proofs and adapt them to the challenge."
+
+review:
+  status: "A separate AI review compared the nine Lean statements with Theorem 14 and Corollary 15."
+  reviewers: ["GPT-6"]

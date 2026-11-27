@@ -33,3 +33,7 @@ name = "Solution"
 [[lean_lib]]
 name = "SharpGuessing"
 globs = ["SharpGuessing.+"]
+
+[[lean_lib]]
+name = "ConditionalContinuity"
+globs = ["ConditionalContinuity.+"]

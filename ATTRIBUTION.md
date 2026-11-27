@@ -1,11 +1,12 @@
 # Source attribution
 
-The 37 modules in `SubentropyCertificates/` supply the proofs of the sharp guessing
-bound and classical strong subadditivity in release 1 of Pratik Patil's
+The 124 modules in `SubentropyCertificates/` supply the proofs of the sharp guessing
+bound, classical strong subadditivity, and sharp continuity bounds for conditional
+subentropy in release 1 of Pratik Patil's
 *Quantum Subentropy: Subadditivity and Sharp Bounds on Discrimination Error* Lean project.
 The pilot preserves their source bytes. [Lean companion](https://pratikpatil.io/lean/subentropy/)
 
-The 32 modules in `vendor/upstream/module_snapshot/D5/` are drawn from The Omega Institute's
+The 35 modules in `vendor/upstream/module_snapshot/D5/` are drawn from The Omega Institute's
 `trureturing` at revision `d3e1e931e66ad4a3f54c95ef96cf723edcd7e792`. The proof release
 adapted module imports and visibility for Lean 4.35.0. The pilot preserves those adaptations.
 The included record gives the SHA-256 hashes of each original and adapted file.

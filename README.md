@@ -6,6 +6,8 @@ The [challenge](Challenge.lean) states the three claims using finite sums, produ
 
 The [challenge for Theorem 1](SharpGuessing/Challenge.lean) states the sharp guessing bound, its equality cases, and the optimal inverse bound on discrimination error. The [solution](SharpGuessing/Solution.lean) connects these statements to the companion proofs. A [side-by-side comparison](SharpGuessing/STATEMENT.md) identifies the corresponding claims in the paper.
 
+The [challenge for Theorem 14 and Corollary 15](ConditionalContinuity/Challenge.lean) states the sharp trace-distance bounds for conditional subentropy, including the optimal coefficient for each fixed quantum marginal. The [solution](ConditionalContinuity/Solution.lean) proves the nine declarations listed in the [comparison with Section 4.2](ConditionalContinuity/STATEMENT.md).
+
 The original code in this package is licensed under [Apache 2.0](LICENSE). The included companion modules match the paper's published source ZIP. The [attribution file](ATTRIBUTION.md) identifies the adapted code and links to its upstream license.
 
 ## Reproduce the proof check
@@ -16,8 +18,9 @@ Use Linux or WSL2 with Git, Python 3, bubblewrap, and the Lean version pinned in
 lake exe cache get
 python3 check.py
 python3 check.py --config SharpGuessing/comparator.json
+python3 check.py --config ConditionalContinuity/comparator.json
 ```
 
 The [default configuration](comparator.json) checks the three declarations for Theorem 22. The [sharp guessing configuration](SharpGuessing/comparator.json) checks the nine declarations for Theorem 1. Each `sorry` in a challenge marks a statement that its solution must prove. The script follows [Palomar's reference procedure](https://github.com/PalomarRegistry/PalomarTemplate/blob/main/scripts/verify-comparator.sh) and runs Comparator in its default sandbox with the toolchain's Lean kernel, NanoDa, and con-ron.
 
-The verification transcripts for [Theorem 22](comparator.log) and [Theorem 1](SharpGuessing/comparator.log) record acceptance by all three kernels with Lean 4.35.0. Each selected theorem uses only `propext`, `Classical.choice`, and `Quot.sound`.
+The verification transcripts for [Theorem 22](comparator.log), [Theorem 1](SharpGuessing/comparator.log), and [Theorem 14 and Corollary 15](ConditionalContinuity/comparator.log) record acceptance by all three kernels with Lean 4.35.0. Each selected theorem uses only `propext`, `Classical.choice`, and `Quot.sound`.
