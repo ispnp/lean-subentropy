@@ -1,0 +1,32 @@
+Lean (version 4.35.0, x86_64-unknown-linux-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)
+
+$ python3 check.py --config SharpGuessing/comparator.json
+Comparator transcript with dependency build progress omitted.
+
+Resolving dependencies
+Building SharpGuessing.Challenge
+Build completed successfully (2678 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, SubentropySharpGuessing.sharp_guessing_bound, SubentropySharpGuessing.positive_error_equality, SubentropySharpGuessing.zero_error_equality, SubentropySharpGuessing.curve_attainable, SubentropySharpGuessing.curve_lt_error, SubentropySharpGuessing.optimal_linear_coefficient, SubentropySharpGuessing.single_label, SubentropySharpGuessing.inverse_on_branch, SubentropySharpGuessing.optimal_inverse_bound, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from SharpGuessing.Challenge
+Building SharpGuessing.Solution
+Build completed successfully (3960 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, SubentropySharpGuessing.sharp_guessing_bound, SubentropySharpGuessing.positive_error_equality, SubentropySharpGuessing.zero_error_equality, SubentropySharpGuessing.curve_attainable, SubentropySharpGuessing.curve_lt_error, SubentropySharpGuessing.optimal_linear_coefficient, SubentropySharpGuessing.single_label, SubentropySharpGuessing.inverse_on_branch, SubentropySharpGuessing.optimal_inverse_bound, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from SharpGuessing.Solution
+Running con-ron kernel on solution
+con-ron: 2 declarations hoisted ahead of the pinned Nat operations they ground: Nat.mul._f, Nat.mul
+con-ron: accepted 61638 declarations (--verified)
+con-ron kernel accepts the solution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!
+
+Lean #print axioms for the nine solution declarations
+'SubentropySharpGuessing.sharp_guessing_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubentropySharpGuessing.positive_error_equality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubentropySharpGuessing.zero_error_equality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubentropySharpGuessing.curve_attainable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubentropySharpGuessing.curve_lt_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubentropySharpGuessing.optimal_linear_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubentropySharpGuessing.single_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubentropySharpGuessing.inverse_on_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SubentropySharpGuessing.optimal_inverse_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

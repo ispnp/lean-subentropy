@@ -1,0 +1,53 @@
+version: "v0.4"
+
+project:
+  name: A sharp lower bound on quantum state discrimination error from conditional subentropy
+  description: >-
+    For a finite quantum ensemble with n ≥ 2 labels and optimal discrimination error e,
+    the largest possible conditional subentropy is the subentropy of the prior
+    (1−e, e/(n−1), …, e/(n−1)). Identical pure signals with this prior attain the bound
+    at every admissible error. The inverse curve gives the minimum possible error
+    at each admissible conditional subentropy, even at fixed positive signal dimension.
+  authors: ["Pratik Patil"]
+  responsible_maintainers: ["Pratik Patil"]
+  license: "Apache-2.0"
+
+classification:
+  arxiv: ["quant-ph", "cs.IT"]
+  msc2020: ["81P17", "81P18", "94A17"]
+
+sources:
+  - title: "Quantum Subentropy: Subadditivity and Sharp Bounds on Discrimination Error"
+    authors: ["Pratik Patil"]
+    type: paper
+    id: "https://arxiv.org/abs/2611.30220v1"
+    location: "Section 1.2, Theorem 1 and the inverse bound following it, equations (3)–(5)"
+    relationship: formalizes
+    note: "Journal version, Theorem 1. https://doi.org/10.3390/e28111283"
+
+related_formalizations:
+  - id: "https://pratikpatil.io/lean/subentropy/"
+    relationship: builds-on
+    note: "The solution uses 29 modules from Patil's Lean companion."
+  - id: "https://github.com/the-omega-institute/trureturing/tree/d3e1e931e66ad4a3f54c95ef96cf723edcd7e792"
+    relationship: builds-on
+    note: "The companion uses 32 adapted supporting modules and a pinching lemma from The Omega Institute."
+
+status:
+  scope: >-
+    Priors may vanish and signal states may be mixed. At positive error, equality
+    characterizes the identical pure signals and the stated prior up to relabeling.
+    At zero error, the positive-prior signals have pairwise orthogonal supports.
+    The statements include the one-label case, the optimal linear coefficient,
+    and both endpoints of the inverse curve.
+  sorry_count: 0
+  axioms: ["propext", "Classical.choice", "Quot.sound"]
+
+automation:
+  methods:
+    - method: agent
+      tool_setup: "AI assistance was used to develop the Lean proofs and adapt them to the challenge."
+
+review:
+  status: "A separate AI review compared all nine statements with Theorem 1 and its inverse bound."
+  reviewers: ["GPT-6"]

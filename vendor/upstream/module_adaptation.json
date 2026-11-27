@@ -183,6 +183,12 @@
       "roundtrip_preserves_original_text": true
     },
     {
+      "path": "D5/S3/Quantum/Subentropy/GuessingProbability.lean",
+      "original_sha256": "360153756a6a1a6858c3a9c85c5380852adb53870ffcd4f6030925a5728a36cf",
+      "adapted_sha256": "e2fbf1933ee5082485a501d0baa0f971b0757b7dc8af52021baedc4a2a656b4a",
+      "roundtrip_preserves_original_text": true
+    },
+    {
       "path": "D5/S3/Quantum/Subentropy/KernelBounds.lean",
       "original_sha256": "d15074e81cc36611eb30a478801aa326cd8cfb2262d9ff363d3b50bb75d2fe2e",
       "adapted_sha256": "2a483466fe4e9e928b6ae8e3c19bc7199f4dda4b787539f1ae48e69114bdd7b0",
@@ -210,6 +216,30 @@
       "path": "D5/S3/Quantum/Tomography/RankOneContextCommutator.lean",
       "original_sha256": "186aecdfa8726f245d588f9f1e44b9854e898874abb6fe6f36c01b33bb8def8f",
       "adapted_sha256": "304a9116c7d1338ab50bfdfb9e65f089f6364775ecf1da8b64ab49d56878b2d3",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Weil/ZetaLinear/HermitianPosPart.lean",
+      "original_sha256": "8d846c8172263e6fb8063116ba73be7e6ba3230f305fd5ffc6fd8fbcebc89ad1",
+      "adapted_sha256": "5c909b22d594259ed4eed9c00345e58c086dc0a585cfd199ea2cbcb5f64b591d",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Weil/ZetaLinear/PosIndex.lean",
+      "original_sha256": "da90b8061cc12906e1c1c7e68d1510109adb4a2e762b2af09ec56e5871cc71c3",
+      "adapted_sha256": "ab2285e73c4d16616b23707c3019d7ccdf8e2579c27e3eef3d3fcd7b72935146",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Weil/ZetaLinear/RankTrace.lean",
+      "original_sha256": "fa8787a28135dcf91246e28fe2b4156874e2c16ad8870c15bc18461eb4fcad5f",
+      "adapted_sha256": "7a88f7440c609595fad9df72401bc2e6472a1ca06fdff4946be221380cb0247f",
+      "roundtrip_preserves_original_text": true
+    },
+    {
+      "path": "D5/S3/Weil/ZetaLinear/VonNeumann.lean",
+      "original_sha256": "027f609e96bea48a5664a3b60d99b01f2700992609acc05c7d4be36926661c9c",
+      "adapted_sha256": "48ceb5757a5799a00344127222c0e75d831a3b21f3662fe277b44621bcab2dfc",
       "roundtrip_preserves_original_text": true
     }
   ]

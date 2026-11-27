@@ -1,0 +1,21 @@
+{
+  "challenge_module": "SharpGuessing.Challenge",
+  "solution_module": "SharpGuessing.Solution",
+  "theorem_names": [
+    "SubentropySharpGuessing.sharp_guessing_bound",
+    "SubentropySharpGuessing.positive_error_equality",
+    "SubentropySharpGuessing.zero_error_equality",
+    "SubentropySharpGuessing.curve_attainable",
+    "SubentropySharpGuessing.curve_lt_error",
+    "SubentropySharpGuessing.optimal_linear_coefficient",
+    "SubentropySharpGuessing.single_label",
+    "SubentropySharpGuessing.inverse_on_branch",
+    "SubentropySharpGuessing.optimal_inverse_bound"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}
