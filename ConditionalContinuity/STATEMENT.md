@@ -1,4 +1,4 @@
-# Sharp trace-distance continuity bounds for conditional subentropy
+# Optimal Lipschitz bounds for conditional subentropy
 
 The table compares Theorem 14 and Corollary 15 of *Quantum Subentropy: Subadditivity and Sharp Bounds on Discrimination Error* with the nine Lean declarations in this entry. [Section 4.2 of the paper](https://arxiv.org/html/2611.30220v1#S4.SS2) · [Challenge.lean](Challenge.lean)
 

@@ -1,7 +1,7 @@
 version: "v0.4"
 
 project:
-  name: Sharp trace-distance continuity bounds for conditional subentropy
+  name: Optimal Lipschitz bounds for conditional subentropy
   description: >-
     For two finite classical–quantum states, the absolute change in conditional subentropy
     is bounded by their joint trace distance times the average of κ along the
